@@ -4,7 +4,7 @@ import React, { useContext } from 'react';
 import { Transaction } from './Transaction';
 
 // Import the Global State
-import { GlobalContext } from '../context/GlobalState';
+import { GlobalContext } from '../Context/GlobalState';
 
 export const TransactionHistory = () => {
 
