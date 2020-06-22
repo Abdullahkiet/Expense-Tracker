@@ -146,12 +146,12 @@ input[type='number'] {
 }
 
 .list li.minus {
-  border-right: 5px solid #2da3ad;
+  border-right: 5px solid red;
 }
 
 .list li.minus:hover {
-  border-right: 5px solid #2da3ad;
-  background-color: #2da3ad;
+  border-right: 5px solid red;
+  background-color: red;
   color: #f7f7f7
 }
 
