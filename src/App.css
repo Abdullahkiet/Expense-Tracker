@@ -136,12 +136,12 @@ input[type='number'] {
 }
 
 .list li.plus {
-  border-right: 5px solid #b6960a;
+  border-right: 5px solid green;
 }
 
 .list li.plus:hover {
-  border-right: 5px solid #b6960a;
-  background-color: #b6960a;
+  border-right: 5px solid green;
+  background-color: green;
   color: #f7f7f7
 }
 
@@ -158,7 +158,7 @@ input[type='number'] {
 
 .delete-btn {
   cursor: pointer;
-  background-color: #8a6a66;
+  background-color: black;
   border: 0;
   color: #fff;
   font-size: 20px;
