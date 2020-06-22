@@ -74,12 +74,12 @@ h4 {
 }
 
 .money.plus {
-  color: #b6960a;
+  color: green;
   font-weight: bold;
 }
 
 .money.minus {
-  color: #2da3ad;
+  color: red;
   font-weight: bold;
 }
 
