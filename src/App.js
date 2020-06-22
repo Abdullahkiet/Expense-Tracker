@@ -10,7 +10,7 @@ import { AddTransaction } from './components/AddTransaction';
 
 //Provider
 
-import { GlobalProvider } from './context/GlobalState';
+import { GlobalProvider } from './Context/GlobalState';
 
 function App() {
   return (
