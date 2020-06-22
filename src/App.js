@@ -9,6 +9,7 @@ import { TransactionHistory } from './components/TransactionHistory';
 import { AddTransaction } from './components/AddTransaction';
 
 //Provider
+
 import { GlobalProvider } from './context/GlobalState';
 
 function App() {
