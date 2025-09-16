@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react';
+import React, { useState, useContext, useEffect } from 'react';
 
 // Import the Global State
 import { GlobalContext } from '../Context/GlobalState';
@@ -23,6 +23,19 @@ export const AddTransaction = () => {
         addTransaction(newTransaction);
 
     }
+
+    useEffect(()=>{
+
+        const addTransactionElement = document.getElementById('addTransaction');
+        
+        if (description.trim() === '' || transactionAmount.trim() === ''){
+            addTransactionElement.classList.add('disabled');
+        }
+        else {
+            addTransactionElement.classList.remove('disabled');
+        }
+
+    }, [description, transactionAmount]);
 
     return (
         <div>
@@ -52,7 +65,7 @@ export const AddTransaction = () => {
                             required="required"
                     />
                 </div>
-                <button className="btn">Add Transaction</button>
+                <button id="addTransaction" className="btn disabled">Add Transaction</button>
             </form>
         </div>
     )
